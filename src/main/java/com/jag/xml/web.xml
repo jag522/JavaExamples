@@ -1,0 +1,6 @@
+<web-app>
+<servlet>
+  <servlet-name>Hello</servlet-name>
+  <servlet-class>je3.servlet.HelloNet</servlet-class>
+</servlet>
+</web-app>

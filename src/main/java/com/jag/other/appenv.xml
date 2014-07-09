@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?>
+<web-app>
+    <!-- 当前法院 -->
+    <current-court>200000</current-court>
+    <modelpath>/report</modelpath>
+    <!-- 数据库连接 -->
+    <connect>
+        <item>
+            <name>RS</name>
+            <data-source>JDBC/RS</data-source>
+        </item>
+        <item>
+            <name>CENTER</name>
+            <data-source>JDBC/RSCENTER</data-source>
+        </item>
+    </connect>
+    <services>
+		<service id="RS" name="本地" url="http://localhost:8080/"/>
+		<service id="200000" name="高院" url="http://localhost:8080/"/>
+		<service id="CENTER" name="中心" url="http://172.16.0.67:8000/"/>
+		<service id="RS_H" name="本地" url="http://localhost:8080/"/>
+		<service id="RS_C" name="本地" url="http://localhost:8080/"/>
+    </services>
+</web-app>

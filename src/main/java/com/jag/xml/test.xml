@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<environments>
+		<entryName>O_SDINT8_SapDrp_InvMed</entryName>
+		<entryJndiName>ree/otcsdint0008</entryJndiName>
+		<scopeCategory>Cell</scopeCategory>
+		<scopeDetail>Cell=wpsq10-QA-cell01</scopeDetail>
+		<description></description>
+		<CustomProperties>
+			<property name="SDINT8_FILE_NAME">DI.DRP.CUSTORD.FROMSAP.G0013V00
+			</property>
+			<property name="FF_FILE_PATH">
+				/app/wpsshared/WPS_processing/otc_interfaces/O_SDINT8_SapDrp_InvMed/output/
+			</property>
+			<property name="FILE_SUFFIX">(+1)</property>
+			<property name="GDG_NAME">DI.DRP.CUSTORD.FROMSAP(+1)'
+			</property>
+			<property name="DATASET_NAME">DI.DRP.CUSTORD.FROMSAP
+			</property>
+		</CustomProperties>
+	</environments>
+</config>
+F

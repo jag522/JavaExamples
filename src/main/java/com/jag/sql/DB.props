@@ -1,0 +1,10 @@
+# The name of the JDBC driver class
+driver=oracle.jdbc.driver.OracleDriver
+# The URL that specifies the database server.
+# It should not include the name of the database to connect to
+url=jdbc:oracle:thin:@172.16.0.17:1555:ora8
+# The database account name
+user=letters
+# The password for the specified account, if any.
+# Uncomment the line below if you need to specify a password
+password=letters

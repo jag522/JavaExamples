@@ -1,0 +1,37 @@
+<MbfService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<input1>
+		<MbfHeader>
+			<ServiceCode>MemberInfoMgmt</ServiceCode>
+			<Operation>queryIndividualMemberInfo</Operation>
+			<AppCode>B2C</AppCode>
+			<UId>8e5eae4508304396918ee2b5ace062c233bfad9af9854535</UId>
+			<AuthId>B2C;iEIKQ1lqBnW$</AuthId>
+		</MbfHeader>
+		<MbfBody>
+			<sysHeader>
+				<transCode>TR01010100</transCode>
+				<tranType>1000</tranType>
+				<userName>b2cTest</userName>
+				<password>5cb6f6ab0560c69e5a548f1c17a4892f</password>
+				<tranDate>2013-03-26</tranDate>
+				<tranTimestamp>2013-03-26 20:49:21.774</tranTimestamp>
+				<sourceSystemNo>139000000010</sourceSystemNo>
+				<destSystemNo>139000000010</destSystemNo>
+				<createdTime>2013-03-26 20:49:22.397</createdTime>
+				<updatedTime>2013-03-26 20:49:22.547</updatedTime>
+				<sourceChannel>0:0:0:0:0:0:0:1</sourceChannel>
+			</sysHeader>
+			<appHeader>
+				<getRecNum>9999</getRecNum>
+				<beginRecNum>0</beginRecNum>
+			</appHeader>
+			<body>
+				<interfaceId>900011</interfaceId>
+				<isSend>false</isSend>
+				<requestIP>0:0:0:0:0:0:0:1</requestIP>
+				<ecoType>140000000010</ecoType>
+				<custNum>8000001772</custNum>
+			</body>
+		</MbfBody>
+	</input1>
+</MbfService>
