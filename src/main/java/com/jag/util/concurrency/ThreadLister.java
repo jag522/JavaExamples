@@ -1,4 +1,4 @@
-package com.jag.thread;
+package com.jag.util.concurrency;
 import java.io.*;
 import java.awt.*;     // AWT classes for the demo program
 import javax.swing.*;  // Swing GUI classes for the demo

@@ -1,4 +1,4 @@
-package com.jag.thread;
+package com.jag.util.concurrency;
 
 /**
  * A growable array of int values, suitable for use with multiple threads.

@@ -1,4 +1,4 @@
-package com.jag.thread;
+package com.jag.util.concurrency;
 
 public class ClassSync {
 	

@@ -1,4 +1,4 @@
-package com.jag.thread;
+package com.jag.util.concurrency;
 
 /**
  * This is a demonstration of how NOT to write multi-threaded programs.

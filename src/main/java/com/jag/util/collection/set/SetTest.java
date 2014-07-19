@@ -51,5 +51,9 @@ public class SetTest {
 		privilegeSet.add(dto1);
 		privilegeSet.add(dto2);
 		System.out.println(privilegeSet);
+		
+		System.out.println(privilegeSet.iterator());
+		System.out.println(privilegeSet.iterator());
+		System.out.println(privilegeSet.iterator());
 	}
 }

@@ -1,4 +1,4 @@
-package com.jag.thread;
+package com.jag.util.concurrency;
 
 /**
  * This class demonstrates the use of threads.  The main( ) method is the 
